@@ -4,7 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/model/User.php" line="100" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625a22a9-3a27-42c3-a122-2182266296d6" name="Default" comment="" />
+    <list default="true" id="625a22a9-3a27-42c3-a122-2182266296d6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GamesLibrary/app/build.gradle" afterPath="$PROJECT_DIR$/../GamesLibrary/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GamesLibrary/build.gradle" afterPath="$PROJECT_DIR$/../GamesLibrary/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -15,11 +22,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" phpInterpreterId="e65f057f-6c25-424e-a5b3-f1ff849aab41">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <pharPath>$PROJECT_DIR$/composer.phar</pharPath>
-    <phpPath>C:\wamp\bin\php\php5.5.12\php.exe</phpPath>
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -36,147 +41,7 @@
     <favorites_list name="untitled" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="86" column="56" selection-start-line="86" selection-start-column="56" selection-end-line="86" selection-end-column="56" />
-              <folding>
-                <element signature="e#7#88#0#PHP" expanded="false" />
-                <element signature="e#188#220#0#PHP" expanded="false" />
-                <element signature="n#getIdUser#0;n#User#0;n#!!top" expanded="false" />
-                <element signature="e#301#341#0#PHP" expanded="false" />
-                <element signature="n#setIdUser#0;n#User#0;n#!!top" expanded="false" />
-                <element signature="e#434#466#0#PHP" expanded="false" />
-                <element signature="n#getEmail#0;n#User#0;n#!!top" expanded="false" />
-                <element signature="e#544#582#0#PHP" expanded="false" />
-                <element signature="n#setEmail#0;n#User#0;n#!!top" expanded="false" />
-                <element signature="e#668#700#0#PHP" expanded="false" />
-                <element signature="n#getGroup#0;n#User#0;n#!!top" expanded="false" />
-                <element signature="e#778#816#0#PHP" expanded="false" />
-                <element signature="n#setGroup#0;n#User#0;n#!!top" expanded="false" />
-                <element signature="e#902#934#0#PHP" expanded="false" />
-                <element signature="n#getName#0;n#User#0;n#!!top" expanded="false" />
-                <element signature="e#1010#1047#0#PHP" expanded="false" />
-                <element signature="n#setName#0;n#User#0;n#!!top" expanded="false" />
-                <element signature="e#1129#1245#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Student.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/Student.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1e2f26cf-6cb9-4b60-a2a9-8332ae83e5b2/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schedule_db.groups" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/e1df7f89/1e2f26cf-6cb9-4b60-a2a9-8332ae83e5b2/schedule_db.groups">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dataInsertion.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/dataInsertion.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8646">
-              <caret line="393" column="32" selection-start-line="393" selection-start-column="32" selection-end-line="393" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
-              <folding>
-                <element signature="e#6#87#0#PHP" expanded="false" />
-                <element signature="e#205#274#0#PHP" expanded="false" />
-                <element signature="e#225#271#1#PHP" expanded="false" />
-                <element signature="e#369#1998#1#PHP" expanded="false" />
-                <element signature="e#904#1996#0#PHP" expanded="false" />
-                <element signature="e#942#1235#0#PHP" expanded="false" />
-                <element signature="e#1026#1203#0#PHP" expanded="false" />
-                <element signature="e#1086#1166#0#PHP" expanded="false" />
-                <element signature="e#1244#1644#0#PHP" expanded="false" />
-                <element signature="e#1412#1603#0#PHP" expanded="false" />
-                <element signature="e#1427#1602#1#PHP" expanded="false" />
-                <element signature="e#1651#1996#0#PHP" expanded="false" />
-                <element signature="e#1776#1963#0#PHP" expanded="false" />
-                <element signature="e#1791#1962#1#PHP" expanded="false" />
-                <element signature="e#3045#3349#1#PHP" expanded="false" />
-                <element signature="e#3373#3676#1#PHP" expanded="false" />
-                <element signature="e#3717#4661#1#PHP" expanded="false" />
-                <element signature="e#4003#4578#0#PHP" expanded="false" />
-                <element signature="e#4041#4167#0#PHP" expanded="false" />
-                <element signature="e#4176#4302#0#PHP" expanded="false" />
-                <element signature="e#4311#4437#0#PHP" expanded="false" />
-                <element signature="e#4446#4572#0#PHP" expanded="false" />
-                <element signature="e#4695#5067#1#PHP" expanded="false" />
-                <element signature="e#5095#5422#1#PHP" expanded="false" />
-                <element signature="e#5448#5770#1#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBConnectionManager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/DBConnectionManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
-              <caret line="124" column="38" selection-start-line="121" selection-start-column="30" selection-end-line="124" selection-end-column="38" />
-              <folding>
-                <element signature="e#7#88#0#PHP" expanded="false" />
-                <element signature="e#331#380#0#PHP" expanded="false" />
-                <element signature="e#1198#1262#0#PHP" expanded="false" />
-                <marker date="1466645214817" expanded="false" signature="1332:1412" ph="INSERT INTO `schedule_db`.`users`... " />
-                <marker date="1466645214817" expanded="false" signature="1332:1428" ph="INSERT INTO `schedule_db`.`users`... " />
-                <marker date="1466645214817" expanded="false" signature="1332:1438" ph="INSERT INTO `schedule_db`.`users`... " />
-                <marker date="1466645214817" expanded="false" signature="1332:1446" ph="INSERT INTO `schedule_db`.`users`... " />
-                <marker date="1466645214817" expanded="false" signature="1476:1511" ph="SELECT * FRO... users" />
-                <marker date="1466645214817" expanded="false" signature="1544:1582" ph="SELECT * fro... schedule_db.teachers" />
-                <marker date="1466645214817" expanded="false" signature="1616:1652" ph="SELECT * FRO... groups" />
-                <marker date="1466645214817" expanded="false" signature="1692:2492" ph="SELECT s.id_... schedule" />
-                <marker date="1466645214817" expanded="false" signature="2525:3268" ph="SELECT s.id_... schedule" />
-                <marker date="1466645214817" expanded="false" signature="3306:4028" ph="SELECT s.id_... schedule" />
-                <marker date="1466645214817" expanded="false" signature="4063:4149" ph="SELECT audit... auditory" />
-                <marker date="1466645214817" expanded="false" signature="4182:4207" ph="SELECT * FRO... disciplines" />
-                <marker date="1466645214817" expanded="false" signature="4238:4303" ph="INSERT INTO `schedule_db`.`groups`... " />
-                <marker date="1466645214817" expanded="false" signature="4337:4409" ph="INSERT INTO `schedule_db`.`disciplines`... " />
-                <marker date="1466645214817" expanded="true" signature="4443:4563" ph="INSERT INTO `schedule_db`.`teachers`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -184,6 +49,9 @@
         <option value="SQL Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -244,10 +112,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1928" />
-    <option name="y" value="-2" />
-    <option name="width" value="1552" />
-    <option name="height" value="880" />
+    <option name="x" value="141" />
+    <option name="y" value="81" />
+    <option name="width" value="1283" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -268,16 +136,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -293,40 +152,46 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ScheduleServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScheduleServer" />
+              <option name="myItemId" value="ScheduleServerOld" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ScheduleServer" />
+              <option name="myItemId" value="ScheduleServerOld" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="/var/www/html/ScheduleServerOld" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\volke\PhpstormProjects\ScheduleServer" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -353,7 +218,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -421,11 +286,12 @@
       <workItem from="1466451991991" duration="8590000" />
       <workItem from="1466624416736" duration="6294000" />
       <workItem from="1467227103883" duration="598000" />
+      <workItem from="1499287749373" duration="1440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154964000" />
+    <option name="totallyTimeSpent" value="156443000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,28 +303,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-2" width="1552" height="880" extended-state="6" />
-    <editor active="false" />
+    <frame x="141" y="81" width="1283" height="800" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24664879" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" show_stripe_button="true" weight="0.18706158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.2935657" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50066936" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.2857143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.2935657" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -478,15 +356,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9db6fffa-311c-44f3-9f5e-d45c6a312ceb/console.sql" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/DBConnectionManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
-          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <caret line="59" column="42" lean-forward="false" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
           <folding>
             <element signature="e#7#88#0#PHP" expanded="false" />
             <element signature="e#188#220#0#PHP" expanded="false" />
             <element signature="n#getIdUser#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="e#301#341#0#PHP" expanded="false" />
             <element signature="n#setIdUser#0;n#User#0;n#!!top" expanded="false" />
             <element signature="e#434#466#0#PHP" expanded="false" />
             <element signature="n#getEmail#0;n#User#0;n#!!top" expanded="false" />
@@ -506,179 +399,30 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/e1df7f89/9db6fffa-311c-44f3-9f5e-d45c6a312ceb/schedule_db.users" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9db6fffa-311c-44f3-9f5e-d45c6a312ceb/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9db6fffa-311c-44f3-9f5e-d45c6a312ceb/console.sql" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-            <element signature="e#205#274#0#PHP" expanded="false" />
-            <element signature="e#225#271#1#PHP" expanded="false" />
-            <element signature="e#369#1998#1#PHP" expanded="false" />
-            <element signature="e#904#1996#0#PHP" expanded="false" />
-            <element signature="e#942#1235#0#PHP" expanded="false" />
-            <element signature="e#1026#1203#0#PHP" expanded="false" />
-            <element signature="e#1086#1166#0#PHP" expanded="false" />
-            <element signature="e#1244#1644#0#PHP" expanded="false" />
-            <element signature="e#1412#1603#0#PHP" expanded="false" />
-            <element signature="e#1427#1602#1#PHP" expanded="false" />
-            <element signature="e#1651#1996#0#PHP" expanded="false" />
-            <element signature="e#1776#1963#0#PHP" expanded="false" />
-            <element signature="e#1791#1962#1#PHP" expanded="false" />
-            <element signature="e#3045#3349#1#PHP" expanded="false" />
-            <element signature="e#3373#3676#1#PHP" expanded="false" />
-            <element signature="e#3717#4661#1#PHP" expanded="false" />
-            <element signature="e#4003#4578#0#PHP" expanded="false" />
-            <element signature="e#4041#4167#0#PHP" expanded="false" />
-            <element signature="e#4176#4302#0#PHP" expanded="false" />
-            <element signature="e#4311#4437#0#PHP" expanded="false" />
-            <element signature="e#4446#4572#0#PHP" expanded="false" />
-            <element signature="e#4695#5067#1#PHP" expanded="false" />
-            <element signature="e#5095#5422#1#PHP" expanded="false" />
-            <element signature="e#5448#5770#1#PHP" expanded="false" />
-          </folding>
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/DBConnectionManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="e#7#88#0#PHP" expanded="false" />
-            <element signature="e#331#380#0#PHP" expanded="false" />
-            <element signature="e#1198#1262#0#PHP" expanded="false" />
-            <marker date="1466645214817" expanded="false" signature="1332:1412" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1332:1428" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1332:1438" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1332:1446" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1476:1511" ph="SELECT * FRO... users" />
-            <marker date="1466645214817" expanded="false" signature="1544:1582" ph="SELECT * fro... schedule_db.teachers" />
-            <marker date="1466645214817" expanded="false" signature="1616:1652" ph="SELECT * FRO... groups" />
-            <marker date="1466645214817" expanded="false" signature="1692:2492" ph="SELECT s.id_... schedule" />
-            <marker date="1466645214817" expanded="false" signature="2525:3268" ph="SELECT s.id_... schedule" />
-            <marker date="1466645214817" expanded="false" signature="3306:4028" ph="SELECT s.id_... schedule" />
-            <marker date="1466645214817" expanded="false" signature="4063:4149" ph="SELECT audit... auditory" />
-            <marker date="1466645214817" expanded="false" signature="4182:4207" ph="SELECT * FRO... disciplines" />
-            <marker date="1466645214817" expanded="false" signature="4238:4303" ph="INSERT INTO `schedule_db`.`groups`... " />
-            <marker date="1466645214817" expanded="false" signature="4337:4409" ph="INSERT INTO `schedule_db`.`disciplines`... " />
-            <marker date="1466645214817" expanded="true" signature="4443:4563" ph="INSERT INTO `schedule_db`.`teachers`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-          <folding>
-            <element signature="e#7#88#0#PHP" expanded="false" />
-            <element signature="e#188#220#0#PHP" expanded="false" />
-            <element signature="n#getIdUser#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="e#301#341#0#PHP" expanded="false" />
-            <element signature="n#setIdUser#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="e#434#466#0#PHP" expanded="false" />
-            <element signature="n#getEmail#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="e#544#582#0#PHP" expanded="false" />
-            <element signature="n#setEmail#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="e#668#700#0#PHP" expanded="false" />
-            <element signature="n#getGroup#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="e#778#816#0#PHP" expanded="false" />
-            <element signature="n#setGroup#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="e#902#934#0#PHP" expanded="false" />
-            <element signature="n#getName#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="e#1010#1047#0#PHP" expanded="false" />
-            <element signature="n#setName#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="e#1129#1245#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1df7f89/9db6fffa-311c-44f3-9f5e-d45c6a312ceb/schedule_db.users" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9db6fffa-311c-44f3-9f5e-d45c6a312ceb/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-            <element signature="e#205#274#0#PHP" expanded="false" />
-            <element signature="e#225#271#1#PHP" expanded="false" />
-            <element signature="e#369#1998#1#PHP" expanded="false" />
-            <element signature="e#904#1996#0#PHP" expanded="false" />
-            <element signature="e#942#1235#0#PHP" expanded="false" />
-            <element signature="e#1026#1203#0#PHP" expanded="false" />
-            <element signature="e#1086#1166#0#PHP" expanded="false" />
-            <element signature="e#1244#1644#0#PHP" expanded="false" />
-            <element signature="e#1412#1603#0#PHP" expanded="false" />
-            <element signature="e#1427#1602#1#PHP" expanded="false" />
-            <element signature="e#1651#1996#0#PHP" expanded="false" />
-            <element signature="e#1776#1963#0#PHP" expanded="false" />
-            <element signature="e#1791#1962#1#PHP" expanded="false" />
-            <element signature="e#3045#3349#1#PHP" expanded="false" />
-            <element signature="e#3373#3676#1#PHP" expanded="false" />
-            <element signature="e#3717#4661#1#PHP" expanded="false" />
-            <element signature="e#4003#4578#0#PHP" expanded="false" />
-            <element signature="e#4041#4167#0#PHP" expanded="false" />
-            <element signature="e#4176#4302#0#PHP" expanded="false" />
-            <element signature="e#4311#4437#0#PHP" expanded="false" />
-            <element signature="e#4446#4572#0#PHP" expanded="false" />
-            <element signature="e#4695#5067#1#PHP" expanded="false" />
-            <element signature="e#5095#5422#1#PHP" expanded="false" />
-            <element signature="e#5448#5770#1#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/DBConnectionManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="e#7#88#0#PHP" expanded="false" />
-            <element signature="e#331#380#0#PHP" expanded="false" />
-            <element signature="e#1198#1262#0#PHP" expanded="false" />
-            <marker date="1466645214817" expanded="false" signature="1332:1412" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1332:1428" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1332:1438" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1332:1446" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1476:1511" ph="SELECT * FRO... users" />
-            <marker date="1466645214817" expanded="false" signature="1544:1582" ph="SELECT * fro... schedule_db.teachers" />
-            <marker date="1466645214817" expanded="false" signature="1616:1652" ph="SELECT * FRO... groups" />
-            <marker date="1466645214817" expanded="false" signature="1692:2492" ph="SELECT s.id_... schedule" />
-            <marker date="1466645214817" expanded="false" signature="2525:3268" ph="SELECT s.id_... schedule" />
-            <marker date="1466645214817" expanded="false" signature="3306:4028" ph="SELECT s.id_... schedule" />
-            <marker date="1466645214817" expanded="false" signature="4063:4149" ph="SELECT audit... auditory" />
-            <marker date="1466645214817" expanded="false" signature="4182:4207" ph="SELECT * FRO... disciplines" />
-            <marker date="1466645214817" expanded="false" signature="4238:4303" ph="INSERT INTO `schedule_db`.`groups`... " />
-            <marker date="1466645214817" expanded="false" signature="4337:4409" ph="INSERT INTO `schedule_db`.`disciplines`... " />
-            <marker date="1466645214817" expanded="true" signature="4443:4563" ph="INSERT INTO `schedule_db`.`teachers`... " />
-          </folding>
+          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#7#88#0#PHP" expanded="false" />
             <element signature="e#188#220#0#PHP" expanded="false" />
             <element signature="n#getIdUser#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="e#301#341#0#PHP" expanded="false" />
             <element signature="n#setIdUser#0;n#User#0;n#!!top" expanded="false" />
             <element signature="e#434#466#0#PHP" expanded="false" />
             <element signature="n#getEmail#0;n#User#0;n#!!top" expanded="false" />
@@ -701,12 +445,11 @@
     <entry file="file://$PROJECT_DIR$/model/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
-          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <caret line="59" column="42" lean-forward="false" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
           <folding>
             <element signature="e#7#88#0#PHP" expanded="false" />
             <element signature="e#188#220#0#PHP" expanded="false" />
             <element signature="n#getIdUser#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="e#301#341#0#PHP" expanded="false" />
             <element signature="n#setIdUser#0;n#User#0;n#!!top" expanded="false" />
             <element signature="e#434#466#0#PHP" expanded="false" />
             <element signature="n#getEmail#0;n#User#0;n#!!top" expanded="false" />
@@ -726,83 +469,30 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/e1df7f89/9db6fffa-311c-44f3-9f5e-d45c6a312ceb/schedule_db.users" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9db6fffa-311c-44f3-9f5e-d45c6a312ceb/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9db6fffa-311c-44f3-9f5e-d45c6a312ceb/console.sql" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-            <element signature="e#205#274#0#PHP" expanded="false" />
-            <element signature="e#225#271#1#PHP" expanded="false" />
-            <element signature="e#369#1998#1#PHP" expanded="false" />
-            <element signature="e#904#1996#0#PHP" expanded="false" />
-            <element signature="e#942#1235#0#PHP" expanded="false" />
-            <element signature="e#1026#1203#0#PHP" expanded="false" />
-            <element signature="e#1086#1166#0#PHP" expanded="false" />
-            <element signature="e#1244#1644#0#PHP" expanded="false" />
-            <element signature="e#1412#1603#0#PHP" expanded="false" />
-            <element signature="e#1427#1602#1#PHP" expanded="false" />
-            <element signature="e#1651#1996#0#PHP" expanded="false" />
-            <element signature="e#1776#1963#0#PHP" expanded="false" />
-            <element signature="e#1791#1962#1#PHP" expanded="false" />
-            <element signature="e#3045#3349#1#PHP" expanded="false" />
-            <element signature="e#3373#3676#1#PHP" expanded="false" />
-            <element signature="e#3717#4661#1#PHP" expanded="false" />
-            <element signature="e#4003#4578#0#PHP" expanded="false" />
-            <element signature="e#4041#4167#0#PHP" expanded="false" />
-            <element signature="e#4176#4302#0#PHP" expanded="false" />
-            <element signature="e#4311#4437#0#PHP" expanded="false" />
-            <element signature="e#4446#4572#0#PHP" expanded="false" />
-            <element signature="e#4695#5067#1#PHP" expanded="false" />
-            <element signature="e#5095#5422#1#PHP" expanded="false" />
-            <element signature="e#5448#5770#1#PHP" expanded="false" />
-          </folding>
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/DBConnectionManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="e#7#88#0#PHP" expanded="false" />
-            <element signature="e#331#380#0#PHP" expanded="false" />
-            <element signature="e#1198#1262#0#PHP" expanded="false" />
-            <marker date="1466645214817" expanded="false" signature="1332:1412" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1332:1428" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1332:1438" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1332:1446" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1476:1511" ph="SELECT * FRO... users" />
-            <marker date="1466645214817" expanded="false" signature="1544:1582" ph="SELECT * fro... schedule_db.teachers" />
-            <marker date="1466645214817" expanded="false" signature="1616:1652" ph="SELECT * FRO... groups" />
-            <marker date="1466645214817" expanded="false" signature="1692:2492" ph="SELECT s.id_... schedule" />
-            <marker date="1466645214817" expanded="false" signature="2525:3268" ph="SELECT s.id_... schedule" />
-            <marker date="1466645214817" expanded="false" signature="3306:4028" ph="SELECT s.id_... schedule" />
-            <marker date="1466645214817" expanded="false" signature="4063:4149" ph="SELECT audit... auditory" />
-            <marker date="1466645214817" expanded="false" signature="4182:4207" ph="SELECT * FRO... disciplines" />
-            <marker date="1466645214817" expanded="false" signature="4238:4303" ph="INSERT INTO `schedule_db`.`groups`... " />
-            <marker date="1466645214817" expanded="false" signature="4337:4409" ph="INSERT INTO `schedule_db`.`disciplines`... " />
-            <marker date="1466645214817" expanded="true" signature="4443:4563" ph="INSERT INTO `schedule_db`.`teachers`... " />
-          </folding>
+          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="e#7#88#0#PHP" expanded="false" />
             <element signature="e#188#220#0#PHP" expanded="false" />
             <element signature="n#getIdUser#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="e#301#341#0#PHP" expanded="false" />
             <element signature="n#setIdUser#0;n#User#0;n#!!top" expanded="false" />
             <element signature="e#434#466#0#PHP" expanded="false" />
             <element signature="n#getEmail#0;n#User#0;n#!!top" expanded="false" />
@@ -824,87 +514,28 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-            <element signature="e#205#274#0#PHP" expanded="false" />
-            <element signature="e#225#271#1#PHP" expanded="false" />
-            <element signature="e#369#1998#1#PHP" expanded="false" />
-            <element signature="e#904#1996#0#PHP" expanded="false" />
-            <element signature="e#942#1235#0#PHP" expanded="false" />
-            <element signature="e#1026#1203#0#PHP" expanded="false" />
-            <element signature="e#1086#1166#0#PHP" expanded="false" />
-            <element signature="e#1244#1644#0#PHP" expanded="false" />
-            <element signature="e#1412#1603#0#PHP" expanded="false" />
-            <element signature="e#1427#1602#1#PHP" expanded="false" />
-            <element signature="e#1651#1996#0#PHP" expanded="false" />
-            <element signature="e#1776#1963#0#PHP" expanded="false" />
-            <element signature="e#1791#1962#1#PHP" expanded="false" />
-            <element signature="e#3045#3349#1#PHP" expanded="false" />
-            <element signature="e#3373#3676#1#PHP" expanded="false" />
-            <element signature="e#3717#4661#1#PHP" expanded="false" />
-            <element signature="e#4003#4578#0#PHP" expanded="false" />
-            <element signature="e#4041#4167#0#PHP" expanded="false" />
-            <element signature="e#4176#4302#0#PHP" expanded="false" />
-            <element signature="e#4311#4437#0#PHP" expanded="false" />
-            <element signature="e#4446#4572#0#PHP" expanded="false" />
-            <element signature="e#4695#5067#1#PHP" expanded="false" />
-            <element signature="e#5095#5422#1#PHP" expanded="false" />
-            <element signature="e#5448#5770#1#PHP" expanded="false" />
-          </folding>
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/DBConnectionManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
-          <caret line="46" column="60" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
-          <folding>
-            <element signature="e#7#88#0#PHP" expanded="false" />
-            <element signature="e#331#380#0#PHP" expanded="false" />
-            <element signature="e#1198#1262#0#PHP" expanded="false" />
-            <marker date="1466645214817" expanded="false" signature="1332:1412" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1332:1428" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1332:1438" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1332:1446" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1476:1511" ph="SELECT * FRO... users" />
-            <marker date="1466645214817" expanded="false" signature="1544:1582" ph="SELECT * fro... schedule_db.teachers" />
-            <marker date="1466645214817" expanded="false" signature="1616:1652" ph="SELECT * FRO... groups" />
-            <marker date="1466645214817" expanded="false" signature="1692:2492" ph="SELECT s.id_... schedule" />
-            <marker date="1466645214817" expanded="false" signature="2525:3268" ph="SELECT s.id_... schedule" />
-            <marker date="1466645214817" expanded="false" signature="3306:4028" ph="SELECT s.id_... schedule" />
-            <marker date="1466645214817" expanded="false" signature="4063:4149" ph="SELECT audit... auditory" />
-            <marker date="1466645214817" expanded="false" signature="4182:4207" ph="SELECT * FRO... disciplines" />
-            <marker date="1466645214817" expanded="false" signature="4238:4303" ph="INSERT INTO `schedule_db`.`groups`... " />
-            <marker date="1466645214817" expanded="false" signature="4337:4409" ph="INSERT INTO `schedule_db`.`disciplines`... " />
-            <marker date="1466645214817" expanded="true" signature="4443:4563" ph="INSERT INTO `schedule_db`.`teachers`... " />
-          </folding>
+          <caret line="46" column="60" lean-forward="false" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4acdb704-ec1e-4161-8cf1-598b7bb799eb/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9db6fffa-311c-44f3-9f5e-d45c6a312ceb/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4acdb704-ec1e-4161-8cf1-598b7bb799eb/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9db6fffa-311c-44f3-9f5e-d45c6a312ceb/console.sql" />
     <entry file="file://$PROJECT_DIR$/model/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="e#7#88#0#PHP" expanded="false" />
             <element signature="e#188#220#0#PHP" expanded="false" />
             <element signature="n#getIdUser#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="e#301#341#0#PHP" expanded="false" />
             <element signature="n#setIdUser#0;n#User#0;n#!!top" expanded="false" />
             <element signature="e#434#466#0#PHP" expanded="false" />
             <element signature="n#getEmail#0;n#User#0;n#!!top" expanded="false" />
@@ -926,60 +557,21 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-            <element signature="e#205#274#0#PHP" expanded="false" />
-            <element signature="e#225#271#1#PHP" expanded="false" />
-            <element signature="e#369#1998#1#PHP" expanded="false" />
-            <element signature="e#904#1996#0#PHP" expanded="false" />
-            <element signature="e#942#1235#0#PHP" expanded="false" />
-            <element signature="e#1026#1203#0#PHP" expanded="false" />
-            <element signature="e#1086#1166#0#PHP" expanded="false" />
-            <element signature="e#1244#1644#0#PHP" expanded="false" />
-            <element signature="e#1412#1603#0#PHP" expanded="false" />
-            <element signature="e#1427#1602#1#PHP" expanded="false" />
-            <element signature="e#1651#1996#0#PHP" expanded="false" />
-            <element signature="e#1776#1963#0#PHP" expanded="false" />
-            <element signature="e#1791#1962#1#PHP" expanded="false" />
-            <element signature="e#3045#3349#1#PHP" expanded="false" />
-            <element signature="e#3373#3676#1#PHP" expanded="false" />
-            <element signature="e#3717#4661#1#PHP" expanded="false" />
-            <element signature="e#4003#4578#0#PHP" expanded="false" />
-            <element signature="e#4041#4167#0#PHP" expanded="false" />
-            <element signature="e#4176#4302#0#PHP" expanded="false" />
-            <element signature="e#4311#4437#0#PHP" expanded="false" />
-            <element signature="e#4446#4572#0#PHP" expanded="false" />
-            <element signature="e#4695#5067#1#PHP" expanded="false" />
-            <element signature="e#5095#5422#1#PHP" expanded="false" />
-            <element signature="e#5448#5770#1#PHP" expanded="false" />
-          </folding>
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4acdb704-ec1e-4161-8cf1-598b7bb799eb/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9db6fffa-311c-44f3-9f5e-d45c6a312ceb/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4acdb704-ec1e-4161-8cf1-598b7bb799eb/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9db6fffa-311c-44f3-9f5e-d45c6a312ceb/console.sql" />
     <entry file="file://$PROJECT_DIR$/model/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="e#7#88#0#PHP" expanded="false" />
             <element signature="e#188#220#0#PHP" expanded="false" />
             <element signature="n#getIdUser#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="e#301#341#0#PHP" expanded="false" />
             <element signature="n#setIdUser#0;n#User#0;n#!!top" expanded="false" />
             <element signature="e#434#466#0#PHP" expanded="false" />
             <element signature="n#getEmail#0;n#User#0;n#!!top" expanded="false" />
@@ -1001,126 +593,75 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-            <element signature="e#205#274#0#PHP" expanded="false" />
-            <element signature="e#225#271#1#PHP" expanded="false" />
-            <element signature="e#369#1998#1#PHP" expanded="false" />
-            <element signature="e#904#1996#0#PHP" expanded="false" />
-            <element signature="e#942#1235#0#PHP" expanded="false" />
-            <element signature="e#1026#1203#0#PHP" expanded="false" />
-            <element signature="e#1086#1166#0#PHP" expanded="false" />
-            <element signature="e#1244#1644#0#PHP" expanded="false" />
-            <element signature="e#1412#1603#0#PHP" expanded="false" />
-            <element signature="e#1427#1602#1#PHP" expanded="false" />
-            <element signature="e#1651#1996#0#PHP" expanded="false" />
-            <element signature="e#1776#1963#0#PHP" expanded="false" />
-            <element signature="e#1791#1962#1#PHP" expanded="false" />
-            <element signature="e#3045#3349#1#PHP" expanded="false" />
-            <element signature="e#3373#3676#1#PHP" expanded="false" />
-            <element signature="e#3717#4661#1#PHP" expanded="false" />
-            <element signature="e#4003#4578#0#PHP" expanded="false" />
-            <element signature="e#4041#4167#0#PHP" expanded="false" />
-            <element signature="e#4176#4302#0#PHP" expanded="false" />
-            <element signature="e#4311#4437#0#PHP" expanded="false" />
-            <element signature="e#4446#4572#0#PHP" expanded="false" />
-            <element signature="e#4695#5067#1#PHP" expanded="false" />
-            <element signature="e#5095#5422#1#PHP" expanded="false" />
-            <element signature="e#5448#5770#1#PHP" expanded="false" />
-          </folding>
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4acdb704-ec1e-4161-8cf1-598b7bb799eb/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4acdb704-ec1e-4161-8cf1-598b7bb799eb/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4acdb704-ec1e-4161-8cf1-598b7bb799eb/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4acdb704-ec1e-4161-8cf1-598b7bb799eb/console.sql" />
     <entry file="file://$PROJECT_DIR$/User.php" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4acdb704-ec1e-4161-8cf1-598b7bb799eb/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4acdb704-ec1e-4161-8cf1-598b7bb799eb/console.sql" />
     <entry file="file://$PROJECT_DIR$/User.php" />
     <entry file="file://$PROJECT_DIR$/User.php" />
     <entry file="file://$PROJECT_DIR$/Slim/Route.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Slim/Router.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-676">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4acdb704-ec1e-4161-8cf1-598b7bb799eb/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4acdb704-ec1e-4161-8cf1-598b7bb799eb/console.sql" />
     <entry file="file://$PROJECT_DIR$/service/Query.php" />
     <entry file="file://$PROJECT_DIR$/Slim/App.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
-          <caret line="419" column="28" selection-start-line="419" selection-start-column="21" selection-end-line="419" selection-end-column="28" />
+          <caret line="419" column="28" lean-forward="false" selection-start-line="419" selection-start-column="21" selection-end-line="419" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Slim/Http/Request.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="1143" column="20" selection-start-line="1131" selection-start-column="9" selection-end-line="1143" selection-end-column="20" />
+          <caret line="1143" column="20" lean-forward="false" selection-start-line="1131" selection-start-column="9" selection-end-line="1143" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/e1df7f89/9db6fffa-311c-44f3-9f5e-d45c6a312ceb/schedule_db.users" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9db6fffa-311c-44f3-9f5e-d45c6a312ceb/console.sql">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9db6fffa-311c-44f3-9f5e-d45c6a312ceb/console.sql" />
+    <entry file="dbDummy://dbtable:/e1df7f89/1e2f26cf-6cb9-4b60-a2a9-8332ae83e5b2/schedule_db.teachers" />
+    <entry file="dbDummy://dbtable:/e1df7f89/1e2f26cf-6cb9-4b60-a2a9-8332ae83e5b2/schedule_db.users" />
+    <entry file="dbDummy://dbtable:/e1df7f89/1e2f26cf-6cb9-4b60-a2a9-8332ae83e5b2/schedule_db.groups" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1e2f26cf-6cb9-4b60-a2a9-8332ae83e5b2/console.sql" />
+    <entry file="file://$PROJECT_DIR$/sql/dataInsertion.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="80">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/e1df7f89/1e2f26cf-6cb9-4b60-a2a9-8332ae83e5b2/schedule_db.teachers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/model/Student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="86" column="56" selection-start-line="86" selection-start-column="56" selection-end-line="86" selection-end-column="56" />
+        <state relative-caret-position="800">
+          <caret line="89" column="30" lean-forward="false" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
           <folding>
             <element signature="e#7#88#0#PHP" expanded="false" />
             <element signature="e#188#220#0#PHP" expanded="false" />
             <element signature="n#getIdUser#0;n#User#0;n#!!top" expanded="false" />
-            <element signature="e#301#341#0#PHP" expanded="false" />
             <element signature="n#setIdUser#0;n#User#0;n#!!top" expanded="false" />
             <element signature="e#434#466#0#PHP" expanded="false" />
             <element signature="n#getEmail#0;n#User#0;n#!!top" expanded="false" />
@@ -1139,113 +680,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/Student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1df7f89/1e2f26cf-6cb9-4b60-a2a9-8332ae83e5b2/schedule_db.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1df7f89/1e2f26cf-6cb9-4b60-a2a9-8332ae83e5b2/schedule_db.groups">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/dataInsertion.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8646">
-          <caret line="393" column="32" selection-start-line="393" selection-start-column="32" selection-end-line="393" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/DBConnectionManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="124" column="38" selection-start-line="121" selection-start-column="30" selection-end-line="124" selection-end-column="38" />
-          <folding>
-            <element signature="e#7#88#0#PHP" expanded="false" />
-            <element signature="e#331#380#0#PHP" expanded="false" />
-            <element signature="e#1198#1262#0#PHP" expanded="false" />
-            <marker date="1466645214817" expanded="false" signature="1332:1412" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1332:1428" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1332:1438" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1332:1446" ph="INSERT INTO `schedule_db`.`users`... " />
-            <marker date="1466645214817" expanded="false" signature="1476:1511" ph="SELECT * FRO... users" />
-            <marker date="1466645214817" expanded="false" signature="1544:1582" ph="SELECT * fro... schedule_db.teachers" />
-            <marker date="1466645214817" expanded="false" signature="1616:1652" ph="SELECT * FRO... groups" />
-            <marker date="1466645214817" expanded="false" signature="1692:2492" ph="SELECT s.id_... schedule" />
-            <marker date="1466645214817" expanded="false" signature="2525:3268" ph="SELECT s.id_... schedule" />
-            <marker date="1466645214817" expanded="false" signature="3306:4028" ph="SELECT s.id_... schedule" />
-            <marker date="1466645214817" expanded="false" signature="4063:4149" ph="SELECT audit... auditory" />
-            <marker date="1466645214817" expanded="false" signature="4182:4207" ph="SELECT * FRO... disciplines" />
-            <marker date="1466645214817" expanded="false" signature="4238:4303" ph="INSERT INTO `schedule_db`.`groups`... " />
-            <marker date="1466645214817" expanded="false" signature="4337:4409" ph="INSERT INTO `schedule_db`.`disciplines`... " />
-            <marker date="1466645214817" expanded="true" signature="4443:4563" ph="INSERT INTO `schedule_db`.`teachers`... " />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1e2f26cf-6cb9-4b60-a2a9-8332ae83e5b2/console.sql">
+    <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="500">
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-            <element signature="e#205#274#0#PHP" expanded="false" />
-            <element signature="e#225#271#1#PHP" expanded="false" />
-            <element signature="e#369#1998#1#PHP" expanded="false" />
-            <element signature="e#904#1996#0#PHP" expanded="false" />
-            <element signature="e#942#1235#0#PHP" expanded="false" />
-            <element signature="e#1026#1203#0#PHP" expanded="false" />
-            <element signature="e#1086#1166#0#PHP" expanded="false" />
-            <element signature="e#1244#1644#0#PHP" expanded="false" />
-            <element signature="e#1412#1603#0#PHP" expanded="false" />
-            <element signature="e#1427#1602#1#PHP" expanded="false" />
-            <element signature="e#1651#1996#0#PHP" expanded="false" />
-            <element signature="e#1776#1963#0#PHP" expanded="false" />
-            <element signature="e#1791#1962#1#PHP" expanded="false" />
-            <element signature="e#3045#3349#1#PHP" expanded="false" />
-            <element signature="e#3373#3676#1#PHP" expanded="false" />
-            <element signature="e#3717#4661#1#PHP" expanded="false" />
-            <element signature="e#4003#4578#0#PHP" expanded="false" />
-            <element signature="e#4041#4167#0#PHP" expanded="false" />
-            <element signature="e#4176#4302#0#PHP" expanded="false" />
-            <element signature="e#4311#4437#0#PHP" expanded="false" />
-            <element signature="e#4446#4572#0#PHP" expanded="false" />
-            <element signature="e#4695#5067#1#PHP" expanded="false" />
-            <element signature="e#5095#5422#1#PHP" expanded="false" />
-            <element signature="e#5448#5770#1#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="508">
+          <caret line="120" column="38" lean-forward="true" selection-start-line="120" selection-start-column="38" selection-end-line="120" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

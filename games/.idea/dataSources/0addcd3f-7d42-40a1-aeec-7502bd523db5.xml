@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - games-lib-db@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="games-lib-db">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="performance_schema"/>
+    <schema id="6" parent="1" name="redmine"/>
+    <schema id="7" parent="1" name="redmine_development"/>
+    <schema id="8" parent="1" name="sys"/>
+    <table id="9" parent="2" name="Publishers"/>
+    <table id="10" parent="2" name="Publishers_has_tittles"/>
+    <table id="11" parent="2" name="developers"/>
+    <table id="12" parent="2" name="developers_has_tittles"/>
+    <table id="13" parent="2" name="genres"/>
+    <table id="14" parent="2" name="people"/>
+    <table id="15" parent="2" name="platforms"/>
+    <table id="16" parent="2" name="platforms_has_tittles"/>
+    <table id="17" parent="2" name="release_dates"/>
+    <table id="18" parent="2" name="roles"/>
+    <table id="19" parent="2" name="tittles"/>
+    <table id="20" parent="2" name="tittles_has_genres"/>
+    <table id="21" parent="2" name="tittles_has_people"/>
+    <table id="22" parent="2" name="tittles_has_release_dates"/>
+    <table id="23" parent="2" name="users"/>
+    <column id="24" parent="9" name="idPublishers">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="25" parent="9" name="publisher_name">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="26" parent="9" name="publisher_type">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="27" parent="9" name="publisher_headquarters">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="28" parent="9" name="publisher_website">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="29" parent="9" name="publisher_wiki_link">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="30" parent="9" name="publisher_notes">
+      <Position>7</Position>
+      <DataType>longtext|0</DataType>
+    </column>
+    <index id="31" parent="9" name="idPublishers_UNIQUE">
+      <ColNames>idPublishers</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="32" parent="9" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idPublishers</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="33" parent="9" name="idPublishers_UNIQUE">
+      <ColNames>idPublishers</ColNames>
+      <UnderlyingIndexName>idPublishers_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="34" parent="10" name="Publishers_idPublishers">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="10" name="tittles_idTittles">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="10" name="publishers_has_tittles_region">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <index id="37" parent="10" name="fk_Publishers_has_tittles_Publishers1_idx">
+      <ColNames>Publishers_idPublishers</ColNames>
+    </index>
+    <index id="38" parent="10" name="fk_Publishers_has_tittles_tittles1_idx">
+      <ColNames>tittles_idTittles</ColNames>
+    </index>
+    <key id="39" parent="10" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Publishers_idPublishers
+tittles_idTittles</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="40" parent="10" name="fk_Publishers_has_tittles_Publishers1">
+      <ColNames>Publishers_idPublishers</ColNames>
+      <RefSchemaName>games-lib-db</RefSchemaName>
+      <RefTableName>Publishers</RefTableName>
+      <RefColNames>idPublishers</RefColNames>
+    </foreign-key>
+    <foreign-key id="41" parent="10" name="fk_Publishers_has_tittles_tittles1">
+      <ColNames>tittles_idTittles</ColNames>
+      <RefSchemaName>games-lib-db</RefSchemaName>
+      <RefTableName>tittles</RefTableName>
+      <RefColNames>idtittle</RefColNames>
+    </foreign-key>
+    <column id="42" parent="11" name="iddevelopers">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="43" parent="11" name="developer_name">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="44" parent="11" name="developer_type">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="45" parent="11" name="developer_founded">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="46" parent="11" name="developer_founders">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="47" parent="11" name="developer_headquarters">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <index id="48" parent="11" name="iddevelopers_UNIQUE">
+      <ColNames>iddevelopers</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="49" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>iddevelopers</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="50" parent="11" name="iddevelopers_UNIQUE">
+      <ColNames>iddevelopers</ColNames>
+      <UnderlyingIndexName>iddevelopers_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="51" parent="12" name="developers_iddevelopers">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="12" name="tittles_idTittles">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="53" parent="12" name="fk_developers_has_tittles_developers1_idx">
+      <ColNames>developers_iddevelopers</ColNames>
+    </index>
+    <index id="54" parent="12" name="fk_developers_has_tittles_tittles1_idx">
+      <ColNames>tittles_idTittles</ColNames>
+    </index>
+    <key id="55" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>developers_iddevelopers
+tittles_idTittles</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="56" parent="12" name="fk_developers_has_tittles_developers1">
+      <ColNames>developers_iddevelopers</ColNames>
+      <RefSchemaName>games-lib-db</RefSchemaName>
+      <RefTableName>developers</RefTableName>
+      <RefColNames>iddevelopers</RefColNames>
+    </foreign-key>
+    <foreign-key id="57" parent="12" name="fk_developers_has_tittles_tittles1">
+      <ColNames>tittles_idTittles</ColNames>
+      <RefSchemaName>games-lib-db</RefSchemaName>
+      <RefTableName>tittles</RefTableName>
+      <RefColNames>idtittle</RefColNames>
+    </foreign-key>
+    <column id="58" parent="13" name="genresid">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="59" parent="13" name="genre_name">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="60" parent="13" name="genre_wiki_page">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <index id="61" parent="13" name="genresid_UNIQUE">
+      <ColNames>genresid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="62" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>genresid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="63" parent="13" name="genresid_UNIQUE">
+      <ColNames>genresid</ColNames>
+      <UnderlyingIndexName>genresid_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="64" parent="14" name="idperson">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="65" parent="14" name="person_name">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <index id="66" parent="14" name="idperson_UNIQUE">
+      <ColNames>idperson</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="67" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idperson</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="68" parent="14" name="idperson_UNIQUE">
+      <ColNames>idperson</ColNames>
+      <UnderlyingIndexName>idperson_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="69" parent="15" name="idPlatforms">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="70" parent="15" name="platform_name">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="71" parent="15" name="platform_family">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <index id="72" parent="15" name="idPlatforms_UNIQUE">
+      <ColNames>idPlatforms</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="73" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idPlatforms</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="74" parent="15" name="idPlatforms_UNIQUE">
+      <ColNames>idPlatforms</ColNames>
+      <UnderlyingIndexName>idPlatforms_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="75" parent="16" name="platforms_idPlatforms">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="16" name="tittles_idtittle">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="77" parent="16" name="fk_platforms_has_tittles_platforms1_idx">
+      <ColNames>platforms_idPlatforms</ColNames>
+    </index>
+    <index id="78" parent="16" name="fk_platforms_has_tittles_tittles1_idx">
+      <ColNames>tittles_idtittle</ColNames>
+    </index>
+    <key id="79" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>platforms_idPlatforms
+tittles_idtittle</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="80" parent="16" name="fk_platforms_has_tittles_platforms1">
+      <ColNames>platforms_idPlatforms</ColNames>
+      <RefSchemaName>games-lib-db</RefSchemaName>
+      <RefTableName>platforms</RefTableName>
+      <RefColNames>idPlatforms</RefColNames>
+    </foreign-key>
+    <foreign-key id="81" parent="16" name="fk_platforms_has_tittles_tittles1">
+      <ColNames>tittles_idtittle</ColNames>
+      <RefSchemaName>games-lib-db</RefSchemaName>
+      <RefTableName>tittles</RefTableName>
+      <RefColNames>idtittle</RefColNames>
+    </foreign-key>
+    <column id="82" parent="17" name="idrelease_dates">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="83" parent="17" name="releasedate_region">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="84" parent="17" name="releasedate_date">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <index id="85" parent="17" name="idrelease_dates_UNIQUE">
+      <ColNames>idrelease_dates</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="86" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idrelease_dates</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="87" parent="17" name="idrelease_dates_UNIQUE">
+      <ColNames>idrelease_dates</ColNames>
+      <UnderlyingIndexName>idrelease_dates_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="88" parent="18" name="idroles">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="89" parent="18" name="name">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="90" parent="18" name="description">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <index id="91" parent="18" name="idroles_UNIQUE">
+      <ColNames>idroles</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="92" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idroles</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="93" parent="18" name="idroles_UNIQUE">
+      <ColNames>idroles</ColNames>
+      <UnderlyingIndexName>idroles_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="94" parent="19" name="idtittle">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="95" parent="19" name="tittle_name">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="96" parent="19" name="tittle_series">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="97" parent="19" name="tittle_engine">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <index id="98" parent="19" name="idTittles_UNIQUE">
+      <ColNames>idtittle</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="99" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idtittle</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="100" parent="19" name="idTittles_UNIQUE">
+      <ColNames>idtittle</ColNames>
+      <UnderlyingIndexName>idTittles_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="101" parent="20" name="tittles_idtittle">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="20" name="genres_genresid">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="103" parent="20" name="fk_tittles_has_genres_genres1_idx">
+      <ColNames>genres_genresid</ColNames>
+    </index>
+    <index id="104" parent="20" name="fk_tittles_has_genres_tittles1_idx">
+      <ColNames>tittles_idtittle</ColNames>
+    </index>
+    <key id="105" parent="20" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>tittles_idtittle
+genres_genresid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="106" parent="20" name="fk_tittles_has_genres_tittles1">
+      <ColNames>tittles_idtittle</ColNames>
+      <RefSchemaName>games-lib-db</RefSchemaName>
+      <RefTableName>tittles</RefTableName>
+      <RefColNames>idtittle</RefColNames>
+    </foreign-key>
+    <foreign-key id="107" parent="20" name="fk_tittles_has_genres_genres1">
+      <ColNames>genres_genresid</ColNames>
+      <RefSchemaName>games-lib-db</RefSchemaName>
+      <RefTableName>genres</RefTableName>
+      <RefColNames>genresid</RefColNames>
+    </foreign-key>
+    <column id="108" parent="21" name="tittles_idtittle">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="109" parent="21" name="people_idperson">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="110" parent="21" name="role">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <index id="111" parent="21" name="fk_tittles_has_people_people1_idx">
+      <ColNames>people_idperson</ColNames>
+    </index>
+    <index id="112" parent="21" name="fk_tittles_has_people_tittles1_idx">
+      <ColNames>tittles_idtittle</ColNames>
+    </index>
+    <foreign-key id="113" parent="21" name="fk_tittles_has_people_tittles1">
+      <ColNames>tittles_idtittle</ColNames>
+      <RefSchemaName>games-lib-db</RefSchemaName>
+      <RefTableName>tittles</RefTableName>
+      <RefColNames>idtittle</RefColNames>
+    </foreign-key>
+    <foreign-key id="114" parent="21" name="fk_tittles_has_people_people1">
+      <ColNames>people_idperson</ColNames>
+      <RefSchemaName>games-lib-db</RefSchemaName>
+      <RefTableName>people</RefTableName>
+      <RefColNames>idperson</RefColNames>
+    </foreign-key>
+    <column id="115" parent="22" name="idtittle">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="116" parent="22" name="idrelease_date">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="117" parent="22" name="idplatform">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="118" parent="22" name="fk_tittles_has_release_dates_idplatform_idx">
+      <ColNames>idplatform</ColNames>
+    </index>
+    <index id="119" parent="22" name="fk_tittles_has_release_dates_idrelease_date_idx">
+      <ColNames>idrelease_date</ColNames>
+    </index>
+    <key id="120" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idtittle
+idrelease_date
+idplatform</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="121" parent="22" name="fk_tittles_has_release_dates_idtittle">
+      <ColNames>idtittle</ColNames>
+      <RefSchemaName>games-lib-db</RefSchemaName>
+      <RefTableName>tittles</RefTableName>
+      <RefColNames>idtittle</RefColNames>
+    </foreign-key>
+    <foreign-key id="122" parent="22" name="fk_tittles_has_release_dates_idrelease_date">
+      <ColNames>idrelease_date</ColNames>
+      <RefSchemaName>games-lib-db</RefSchemaName>
+      <RefTableName>release_dates</RefTableName>
+      <RefColNames>idrelease_dates</RefColNames>
+    </foreign-key>
+    <foreign-key id="123" parent="22" name="fk_tittles_has_release_dates_idplatform">
+      <ColNames>idplatform</ColNames>
+      <RefSchemaName>games-lib-db</RefSchemaName>
+      <RefTableName>platforms</RefTableName>
+      <RefColNames>idPlatforms</RefColNames>
+    </foreign-key>
+    <column id="124" parent="23" name="idUsers">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="125" parent="23" name="username">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="126" parent="23" name="email">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="127" parent="23" name="password">
+      <Position>4</Position>
+      <DataType>char(128)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="128" parent="23" name="roles_idroles">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="129" parent="23" name="fk_users_roles1_idx">
+      <ColNames>roles_idroles</ColNames>
+    </index>
+    <key id="130" parent="23" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idUsers</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="131" parent="23" name="fk_users_roles1">
+      <ColNames>roles_idroles</ColNames>
+      <RefSchemaName>games-lib-db</RefSchemaName>
+      <RefTableName>roles</RefTableName>
+      <RefColNames>idroles</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>
