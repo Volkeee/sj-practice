@@ -1,5 +1,12 @@
 {
-    "require": {
-        "slim/slim": "^3.0"
+  "name": "games/games_lib",
+  "description": "Server for GamesLibrary app",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Viktor Vovk",
+      "email": "viktor.m.vovk@gmail.com"
     }
+  ]
 }
